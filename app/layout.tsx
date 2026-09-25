@@ -18,7 +18,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       lang="en"
       className={interTight.variable}
     >
-      <body className="relative overflow-x-clip">{children}</body>
+      <body className="overflow-x-clip">{children}</body>
     </html>
   );
 }
